@@ -52,6 +52,9 @@ RT补丁修改了大部分的内核中的自旋锁(spinlock)为普通的互斥�
 
 
 
+### 参考资料
+1. [linux-rt wiki](https://wiki.linuxfoundation.org/realtime/documentation/technical_basics/start)
+
 
 
 
