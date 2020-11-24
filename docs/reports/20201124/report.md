@@ -80,6 +80,28 @@ GP-Linux:
 
 
 
+### 同时运行
+
+在RT-Linux的host上面同时运行两个虚拟机，一个是GP另一个是RT。两者同时测试的结果如下图所示：
+
+GP-Linux:
+
+![gp-guest](pictures/sametime/gp-guest.png)
+
+RT-Linux:
+
+![rt-guest](pictures/sametime/rt-guest.png)
+
+
+
+可以看出两者同时运行的情况下，GP-Linux的时延为1908us，多于RT-Linux的时延906us。在多个虚拟机同时运行的情况下，实时的虚拟机的实时性更好。
+
+
+
+
+
+
+
 ### 附：测试的实际结果截图
 
 1. Host为GP，Guest为GP:
