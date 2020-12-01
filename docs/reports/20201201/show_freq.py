@@ -6,7 +6,7 @@ import sys
 #  python show_freq.py [fname] label
 #  fname 是要画图的数据文件名， label是保存的标签(如果gp-gp)
 # example:
-#  python show_freq.py gp-gp
+#  python show_freq.py ans.txt gp-gp
 
 fname = "./kvm/ans2.txt"
 
