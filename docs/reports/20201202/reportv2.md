@@ -134,6 +134,12 @@ RT-RT:
 
   ![rt-rt-freq](pictures/rt-rt-freq.png)
 
+min:6
+
+max:832
+
+avg:56
+
 出现频率最高的时延是55us，一共出现了56次。
 
 ![image-20201201195829425](pictures/rt-rt-freq-res.png)
@@ -148,6 +154,12 @@ RT-RT:
 
 ![rt-gp-freq](pictures/rt-gp-freq.png)
 
+min: 8
+
+max:2719,大于1000us的有75次
+
+avg:53
+
 出现频率最高的时延是55us，一共出现了20334次。
 
 ![image-20201201200056569](pictures/links)
@@ -160,14 +172,25 @@ RT-RT:
 
   ![gp-rt-freq](pictures/gp-rt-freq.png)
 
+min: 3
+
+max:25544,大于10000us的有131次
+
+avg:128
+
 出现频率最高的时延是54us，一共出现了29215次。
 
 ![image-20201201195829425](pictures/gp-rt-freq-res.png)
 
 
 
-+ GP-GP
-+  ![gp-rt-freq](pictures/gp-gp-freq.png)
++ GP-GP![gp-rt-freq](pictures/gp-gp-freq.png)
+
+min: 3
+
+max:26502,大于10000us的有155次
+
+avg:119
 
 出现频率最高的时延是54us，一共出现了25795次。
 
