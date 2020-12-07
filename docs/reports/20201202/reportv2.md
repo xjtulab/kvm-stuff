@@ -130,7 +130,7 @@ RT-RT:
 
   ![rt-rt-freq](pictures/rt-rt-freq.png)
 
-出现频率最高的时延是55us，一共出现了56次。
+出现频率最高的时延是55us，一共出现了35522次。
 
 ![image-20201201195829425](pictures/rt-rt-freq-res.png)
 
