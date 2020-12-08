@@ -6,9 +6,6 @@ fname2 = "results/gp-rt/log5.txt"
 
 fname3 = "results/gp-rt/log8.txt"
 fname4 = "results/gp-rt/log9.txt"
-fname5 = "results/gp-rt/log10.txt"
-
-#origins = [474,242,232,258,231,187,363,294,521,242]
 
 def get_max_list(fname):
     res = []
@@ -27,7 +24,7 @@ def plot_all():
     rr_mlockall = get_max_list(fname2)
     fifo_normal = get_max_list(fname3)
     fifo_mlockall = get_max_list(fname4)
-    origins = get_max_list(fname5)
+
     #start plot
     xvalues = list(range(1,len(rr_normal) + 1))
     '''
@@ -40,7 +37,6 @@ def plot_all():
     plt.plot(xvalues, rr_mlockall, label="sched-rr-mlockall",c="green", marker="+")
     plt.plot(xvalues, fifo_normal, label="sched-fifo-normal",c="blue", marker="*")
     plt.plot(xvalues, fifo_mlockall, label="sched-fifo-mlockall",c="brown", marker="p")
-    plt.plot(xvalues, origins, label="origin-result",c="black", marker=".")
 
     plt.legend()
     plt.show()

@@ -196,9 +196,9 @@ SCHED-FIFO - mlockall	:
 
 
 
-具体的对比如如下图所示：
+具体的对比如如下图（黑色的是原来不更改调度策略的）所示：
 
-![image](images/compare1.png)
+![image](images/compare2.png)
 
 
 
