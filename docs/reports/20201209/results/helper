@@ -1,0 +1,14 @@
+
+sudo cyclictest -t1 -p80 -i 10000 -l 10000 
+
+log1: 普通的测试
+log2: 添加 -m 后的测试(mlock all)
+log3: 更改调度策略为rr后的测试 --policy rr
+log4: 普通的测试20次
+log5: 添加 -m 后的测试 20次
+log6: 更改调度策略为rr后的测试 --policy rr 20 次
+
+更改vm进程为fifo
+log7: --policy rr 的20次测试
+log8: 普通的20次测试
+log9: 添加 -m 后的20次测试

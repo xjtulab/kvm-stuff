@@ -1,0 +1,10 @@
+sudo cyclictest -t1 -p80 -n -i 10000 -l 10000 --policy=rr
+Results:
+
+
+Total test count is 20
+Max latency is  583us
+Max result is T: 0 ( 2926) P:80 I:10000 C: 10000 Min: 4 Act: 55 Avg: 55 Max: 583
+Min latency is  65us
+Min result is T: 0 ( 3005) P:80 I:10000 C: 10000 Min: 4 Act: 52 Avg: 51 Max: 65
+Average latency is 139us
