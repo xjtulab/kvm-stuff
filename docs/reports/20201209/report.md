@@ -22,7 +22,7 @@ ps -eLo pid,lwp,psr,args | grep qemu-kvm
 
 
 
-可以看到宿主机给启动该虚拟机的进程id是3034，该进程下又有几个线程，分别是3034~3049。从qemu启动后的debug信息(ctrl + shift + 2)可以查看该虚拟机的两个cpu的线程id是3041,3042，如下图所示(img2)。
+可以看到宿主机给启动该虚拟机的进程id是3034，该进程下又有几个线程，分别是3034~3049。从qemu启动后的monitor窗口信息(ctrl +alt + 2)可以查看该虚拟机的两个cpu的线程id是3041,3042，如下图所示(img2)。
 
 ![image](images/img2.png)
 

@@ -70,7 +70,7 @@ posixcputmr:
 
 
 
-##### 查看客户机的VCPU线程：
+##### 查看客户机的VCPU线程（在vnc viewer里按ctrl+alt+2,按ctrl+alt+1切换回去）：
 
 ##### ![](pictures/rt-gp0.png)
 
@@ -134,15 +134,11 @@ RT-RT:
 
   ![rt-rt-freq](pictures/rt-rt-freq.png)
 
-<<<<<<< HEAD:docs/reports/20201202/reportv2.md
-=======
 min:6
 
 max:832
 
 avg:56
-
->>>>>>> 5bebab1c64007ff63d17a37ce048190df626d531:docs/reports/20201202/KVM虚拟机VCPU绑定CPU后的延时实验.md
 出现频率最高的时延是55us，一共出现了35522次。
 
 ![image-20201201195829425](pictures/rt-rt-freq-res.png)
