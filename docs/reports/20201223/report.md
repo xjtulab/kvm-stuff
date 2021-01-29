@@ -54,9 +54,7 @@
 | MSR_READ | 读取MSR寄存器 |
 
 1. EPT是为了提升虚拟化内存映射的效率而提供的一项技术，打开EPT后，GuestOS运行时，通过页表转化处理的地址不再是真实的物理地址，而是被称作为guest-physical addressed,经过EPT的转化后才成为真实的物理地址。
-
 2. MSR(Model Specific Register)指的是在x86架构处理器中，一系列用于控制CPU运行、功能开关、调试、跟踪程序运行、检测CPU性能方面的寄存器。
-
 3. Preemption Timer是一种可以周期性使VM触发VMEXIT的一种机制。即设置了Preemption Timer之后，可以使得虚拟机在指定的TSC cycle之后产生一次VMEXIT并设置对应的exit_reason，trap到VMM中。
 
 
